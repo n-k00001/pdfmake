@@ -8,17 +8,14 @@ import { ChartsComponent } from './Component/charts/charts.component';
 import { ReportDataService } from './services/report-data.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { Page4Component } from './Component/page4/page4.component';
-import { TryComponent } from './Component/try/try.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ReportComponent,
-    ChartsComponent,
-    Page4Component,
-    TryComponent
+    ChartsComponent
   ],
   imports: [
     BrowserModule,
