@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ReportDataService {
-  ApiUrl = 'https://n-k00001.github.io/report_api/db.json'
+  ApiUrl = 'https://n-k00001.github.io/report_api/data.json'
   constructor(private _HttpClient:HttpClient) { }
 
   getData(){
